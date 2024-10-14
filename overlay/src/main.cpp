@@ -144,7 +144,7 @@ public:
     ConfigEntry config_es5{"es", "es5", true};
     ConfigEntry config_es6{"es", "es6", true};
     ConfigEntry config_es7{"es", "es7", true};
-    ConfigEntry config_es7{"es", "es8", true};
+    ConfigEntry config_es8{"es", "es8", true};
     ConfigEntry config_ctest{"nifm", "ctest", false};
 };
 
