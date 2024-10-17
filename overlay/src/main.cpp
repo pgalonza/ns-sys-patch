@@ -104,6 +104,7 @@ public:
         list->addItem(config_noncasigchk_old.create_list_item("noncasigchk_old"));
         list->addItem(config_noncasigchk_new.create_list_item("noncasigchk_new"));
         list->addItem(config_noncasigchk_new2.create_list_item("noncasigchk_new2"));
+        list->addItem(config_noncasigchk_new3.create_list_item("noncasigchk_new3"));
         list->addItem(config_nocntchk_old.create_list_item("nocntchk_old"));
         list->addItem(config_nocntchk_new.create_list_item("nocntchk_new"));
 
@@ -118,6 +119,7 @@ public:
         list->addItem(config_es5.create_list_item("es5"));
         list->addItem(config_es6.create_list_item("es6"));
         list->addItem(config_es7.create_list_item("es7"));
+        list->addItem(config_es8.create_list_item("es8"));
 
         list->addItem(new tsl::elm::CategoryHeader("NIFM - 010000000000000F"));
         list->addItem(config_ctest.create_list_item("ctest"));
@@ -131,6 +133,7 @@ public:
     ConfigEntry config_noncasigchk_old{"fs", "noncasigchk_old", true};
     ConfigEntry config_noncasigchk_new{"fs", "noncasigchk_new", true};
     ConfigEntry config_noncasigchk_new2{"fs", "noncasigchk_new2", true};
+    ConfigEntry config_noncasigchk_new3{"fs", "noncasigchk_new3", true};
     ConfigEntry config_nocntchk_old{"fs", "nocntchk_old", true};
     ConfigEntry config_nocntchk_new{"fs", "nocntchk_new", true};
     ConfigEntry config_noacidsigchk{"ldr", "noacidsigchk", true};
@@ -141,6 +144,7 @@ public:
     ConfigEntry config_es5{"es", "es5", true};
     ConfigEntry config_es6{"es", "es6", true};
     ConfigEntry config_es7{"es", "es7", true};
+    ConfigEntry config_es8{"es", "es8", true};
     ConfigEntry config_ctest{"nifm", "ctest", false};
 };
 
